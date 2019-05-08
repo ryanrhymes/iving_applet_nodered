@@ -6,3 +6,5 @@ services:
     image: nodered/node-red-docker
     ports:
       - 1880:1880
+    stdin_open: true
+    tty: true
